@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".spot"
+    android:background="@drawable/fenimicon"
+    android:orientation="vertical"
+    android:padding="40dp"
+
+    >
+    <Button
+        android:id="@+id/spot1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/spot1"
+        android:textColor="#EB001E"
+        android:layout_margin="10dp"
+        android:background="#A3E2CD"
+        />
+    <Button
+        android:id="@+id/spot2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/spot2"
+        android:layout_margin="10dp"
+        android:textColor="#EB001E"
+        android:background="#A3E2CD"
+        />
+    <Button
+        android:id="@+id/spot3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/spot3"
+        android:layout_margin="10dp"
+        android:textColor="#EB001E"
+        android:background="#A3E2CD"
+        />
+
+</LinearLayout>

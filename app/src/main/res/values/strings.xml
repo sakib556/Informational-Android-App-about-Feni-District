@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Feni District</string>
+    <string name="heading">FENI</string>
+    <string name="one">Photo\'s</string>
+    <string name="two">Tourist spots</string>
+    <string name="Three">Top restaurants</string>
+    <string name="four">Spacial tea stalls</string>
+    <string name="five">Map</string>
+    <string name="six">About Feni</string>
+    <string name="seven">About me</string>
+    <string name="dial">Call now</string>
+    <string name="spot1">ফেনী বিজয়সিংহ দিঘী</string>
+    <string name="spot2">ফেনী রাজাঝির দিঘী</string>
+    <string name="spot3">মুহুরি প্রজেক্ট</string>
+    <string name="name">Kazi Shakib Uddin. \nDiploma in engineering in Telecommunication Technology \nFeni Computer Institute,Feni.
+                     \n Phone : 01857447556
+
+
+    </string>
+
+</resources>

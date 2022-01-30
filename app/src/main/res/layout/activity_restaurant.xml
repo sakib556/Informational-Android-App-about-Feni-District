@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/resback"
+    tools:context=".restaurant"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Three"
+        android:textColor="#B8A32D"
+        android:textSize="40sp"
+
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/fenian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#130CDF"
+        android:onClick="fenian"
+        android:background="#90D5C1"
+        android:text="The Fenian"
+        android:textAllCaps="false"
+        android:layout_margin="15dp"
+        />
+    <Button
+        android:id="@+id/crown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#130CDF"
+
+        android:background="#90D5C1"
+        android:text="Crownwest"
+        android:textAllCaps="false"
+        android:layout_margin="15dp"
+        />
+
+</LinearLayout>

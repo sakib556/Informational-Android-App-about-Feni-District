@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backfeni"
+    android:orientation="vertical"
+    android:padding="10sp"
+    android:weightSum="1"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/heading"
+                android:textAllCaps="false"
+                android:textColor="#0D7000"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/photo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#00F1CA"
+                android:onClick="photo"
+                android:text="@string/one"
+                android:textAllCaps="false"
+                android:textColor="#BE0808"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/tour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#00F1CA"
+                android:onClick="spot"
+                android:text="@string/two"
+                android:textAllCaps="false"
+                android:textColor="#BE0808"
+                android:textSize="15sp" />
+            <Button
+                android:id="@+id/rest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#00F1CA"
+                android:onClick="restaurant"
+                android:text="@string/Three"
+                android:textAllCaps="false"
+                android:textColor="#BE0808"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/tea"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#00F1CA"
+                android:text="@string/four"
+                android:textAllCaps="false"
+                android:textColor="#BE0808"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#00F1CA"
+                android:onClick="map"
+                android:text="@string/five"
+                android:textAllCaps="false"
+                android:textColor="#BE0808"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/feni"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#00F1CA"
+                android:text="@string/six"
+                android:textAllCaps="false"
+                android:textColor="#BE0808"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/me"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#00F1CA"
+                android:onClick="aboutme"
+                android:text="@string/seven"
+                android:textAllCaps="false"
+                android:textColor="#BE0808"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

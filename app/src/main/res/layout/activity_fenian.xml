@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fenian"
+    android:background="@drawable/fenianback">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="249dp"
+        android:src="@drawable/fenianres1"
+
+
+        />
+    <Button
+        android:id="@+id/callfenian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tap to call now"
+        android:background="#FF9903"
+        android:layout_margin="10dp"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to the website Fenian"
+        android:id="@+id/webf"
+        android:textAllCaps="false"
+        android:background="#FF9903"
+        android:layout_margin="10dp"
+        />
+</LinearLayout>
